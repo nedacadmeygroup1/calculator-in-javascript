@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1> Calculator:
+
+    </h1>
+    <div class="cal">  
+    <div class="a">
+        <button
+        onclick="
+        numbers=numbers+'7';  
+        console.log(numbers) 
+        ">7</button>
+
+        <button
+        onclick="
+        numbers=numbers+'8';  
+        console.log(numbers) 
+">8</button>
+
+        <button onclick="
+        numbers=numbers+'9';  
+        console.log(numbers) 
+">9</button>
+
+        <button  onclick="
+        numbers=numbers+'*';  
+        console.log(numbers) 
+">*</button>
+    </div>
+
+   <div class="a">
+    <button  onclick="
+    numbers=numbers+'4';  
+    console.log(numbers) 
+">4</button>
+
+    <button  onclick="
+    numbers=numbers+'5';  
+    console.log(numbers) 
+">5</button>
+
+    <button  onclick="
+    numbers=numbers+'6';  
+    console.log(numbers) 
+">6</button> 
+
+    <button  onclick="
+    numbers=numbers+'-';  
+    console.log(numbers) 
+">-</button>
+   </div>
+
+   <div class="a">
+    <button
+    onclick="
+            numbers=numbers+'1';  
+            console.log(numbers) 
+    ">1</button>
+
+    <button
+    onclick="
+            numbers=numbers+'2';  
+            console.log(numbers) 
+    ">2</button>
+
+    <button 
+    onclick="
+            numbers=numbers+'3';  
+            console.log(numbers) 
+    ">3</button>
+
+    <button  onclick="
+    numbers=numbers+'+';  
+    console.log(numbers) 
+">+</button>
+   </div>
+
+   <div class="a">
+    <button  onclick="
+    numbers=numbers+'0';  
+    console.log(numbers) 
+">0</button>
+
+    <button  onclick="
+    numbers=numbers+'/';  
+    console.log(numbers) 
+">/</button>
+
+    <button  onclick="
+    numbers=numbers+'.';  
+    console.log(numbers) 
+">.</button>
+
+    <button  onclick=" 
+    console.log(eval(numbers));
+">=</button>
+   </div>
+
+</div>
+<script>
+    let numbers= ''
+</script>
+</body>
+</html>

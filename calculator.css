@@ -1,0 +1,46 @@
+body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        margin: 50px;
+        justify-items: center;
+        background-color: bisque;
+    
+}
+
+.cal {
+    max-height: 100%;
+    height: 150px;
+    width: 200px;
+    background-color: rgb(31, 116, 139);
+    text-align: center;
+    padding-top: 45px;
+    justify-content: center;
+    border-radius: 10px;
+    border-color: rgb(9, 92, 114) ;
+}
+
+.a {
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    border-radius: 15px;
+    color: grey;
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(245, 245, 220);
+    
+}
+
+h1 {
+    font-size: large;
+    font-weight: 500;
+    font-style: oblique;
+
+}
